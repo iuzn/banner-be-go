@@ -1,0 +1,24 @@
+{
+  "name": "Banner Be Gone",
+  "description": "Hides Smart App Banners and other intrusive 'Open in App' headers.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "author": "Ibrahim Uzun (iuzn) - https://github.com/iuzn",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["banner-blocker.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "permissions": ["activeTab", "scripting"]
+}
