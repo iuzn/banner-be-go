@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00931E4F2E165678007B446C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931E4E2E165678007B446C /* AppDelegate.swift */; };
+		00931E512E165678007B446C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931E502E165678007B446C /* SceneDelegate.swift */; };
+		00931E542E165678007B446C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00931E522E165678007B446C /* LaunchScreen.storyboard */; };
+		00931E572E165678007B446C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00931E552E165678007B446C /* Main.storyboard */; };
+		00931E602E165678007B446C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931E5F2E165678007B446C /* AppDelegate.swift */; };
+		00931E632E165678007B446C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00931E612E165678007B446C /* Main.storyboard */; };
+		00931E6B2E165678007B446C /* Banner Be Gone Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 00931E6A2E165678007B446C /* Banner Be Gone Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		00931E752E165678007B446C /* Banner Be Gone Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 00931E742E165678007B446C /* Banner Be Gone Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		00931E7B2E165678007B446C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 00931E3E2E165677007B446C /* Main.html */; };
+		00931E7C2E165678007B446C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 00931E3E2E165677007B446C /* Main.html */; };
+		00931E7D2E165678007B446C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00931E402E165677007B446C /* Icon.png */; };
+		00931E7E2E165678007B446C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00931E402E165677007B446C /* Icon.png */; };
+		00931E7F2E165678007B446C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 00931E412E165677007B446C /* Style.css */; };
+		00931E802E165678007B446C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 00931E412E165677007B446C /* Style.css */; };
+		00931E812E165678007B446C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 00931E422E165677007B446C /* Script.js */; };
+		00931E822E165678007B446C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 00931E422E165677007B446C /* Script.js */; };
+		00931E832E165678007B446C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931E432E165677007B446C /* ViewController.swift */; };
+		00931E842E165678007B446C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931E432E165677007B446C /* ViewController.swift */; };
+		00931E852E165678007B446C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00931E442E165678007B446C /* Assets.xcassets */; };
+		00931E862E165678007B446C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00931E442E165678007B446C /* Assets.xcassets */; };
+		00931E872E165678007B446C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931E462E165678007B446C /* SafariWebExtensionHandler.swift */; };
+		00931E882E165678007B446C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931E462E165678007B446C /* SafariWebExtensionHandler.swift */; };
+		00931E9D2E165678007B446C /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 00931E9A2E165678007B446C /* icons */; };
+		00931E9E2E165678007B446C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 00931E9B2E165678007B446C /* manifest.json */; };
+		00931E9F2E165678007B446C /* banner-blocker.js in Resources */ = {isa = PBXBuildFile; fileRef = 00931E9C2E165678007B446C /* banner-blocker.js */; };
+		00931EA02E165678007B446C /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 00931E9A2E165678007B446C /* icons */; };
+		00931EA12E165678007B446C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 00931E9B2E165678007B446C /* manifest.json */; };
+		00931EA22E165678007B446C /* banner-blocker.js in Resources */ = {isa = PBXBuildFile; fileRef = 00931E9C2E165678007B446C /* banner-blocker.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00931E6C2E165678007B446C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00931E382E165677007B446C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00931E692E165678007B446C;
+			remoteInfo = "Banner Be Gone Extension (iOS)";
+		};
+		00931E762E165678007B446C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00931E382E165677007B446C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00931E732E165678007B446C;
+			remoteInfo = "Banner Be Gone Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00931E8E2E165678007B446C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00931E6B2E165678007B446C /* Banner Be Gone Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E952E165678007B446C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00931E752E165678007B446C /* Banner Be Gone Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00931E3F2E165677007B446C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		00931E402E165677007B446C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		00931E412E165677007B446C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		00931E422E165677007B446C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		00931E432E165677007B446C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00931E442E165678007B446C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00931E462E165678007B446C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		00931E4B2E165678007B446C /* Banner Be Gone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banner Be Gone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00931E4E2E165678007B446C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00931E502E165678007B446C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00931E532E165678007B446C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00931E562E165678007B446C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00931E582E165678007B446C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00931E5D2E165678007B446C /* Banner Be Gone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banner Be Gone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00931E5F2E165678007B446C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00931E622E165678007B446C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00931E642E165678007B446C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00931E652E165678007B446C /* Banner Be Gone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Banner Be Gone.entitlements"; sourceTree = "<group>"; };
+		00931E6A2E165678007B446C /* Banner Be Gone Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Banner Be Gone Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00931E6F2E165678007B446C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00931E742E165678007B446C /* Banner Be Gone Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Banner Be Gone Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00931E792E165678007B446C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00931E7A2E165678007B446C /* Banner Be Gone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Banner Be Gone.entitlements"; sourceTree = "<group>"; };
+		00931E9A2E165678007B446C /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../build/icons; sourceTree = "<group>"; };
+		00931E9B2E165678007B446C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../build/manifest.json; sourceTree = "<group>"; };
+		00931E9C2E165678007B446C /* banner-blocker.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "banner-blocker.js"; path = "../../build/banner-blocker.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00931E482E165678007B446C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E5A2E165678007B446C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E672E165678007B446C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E712E165678007B446C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00931E372E165677007B446C = {
+			isa = PBXGroup;
+			children = (
+				00931E3C2E165677007B446C /* Shared (App) */,
+				00931E452E165678007B446C /* Shared (Extension) */,
+				00931E4D2E165678007B446C /* iOS (App) */,
+				00931E5E2E165678007B446C /* macOS (App) */,
+				00931E6E2E165678007B446C /* iOS (Extension) */,
+				00931E782E165678007B446C /* macOS (Extension) */,
+				00931E4C2E165678007B446C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00931E3C2E165677007B446C /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				00931E432E165677007B446C /* ViewController.swift */,
+				00931E442E165678007B446C /* Assets.xcassets */,
+				00931E3D2E165677007B446C /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		00931E3D2E165677007B446C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00931E3E2E165677007B446C /* Main.html */,
+				00931E402E165677007B446C /* Icon.png */,
+				00931E412E165677007B446C /* Style.css */,
+				00931E422E165677007B446C /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00931E452E165678007B446C /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				00931E992E165678007B446C /* Resources */,
+				00931E462E165678007B446C /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		00931E4C2E165678007B446C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00931E4B2E165678007B446C /* Banner Be Gone.app */,
+				00931E5D2E165678007B446C /* Banner Be Gone.app */,
+				00931E6A2E165678007B446C /* Banner Be Gone Extension.appex */,
+				00931E742E165678007B446C /* Banner Be Gone Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00931E4D2E165678007B446C /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				00931E4E2E165678007B446C /* AppDelegate.swift */,
+				00931E502E165678007B446C /* SceneDelegate.swift */,
+				00931E522E165678007B446C /* LaunchScreen.storyboard */,
+				00931E552E165678007B446C /* Main.storyboard */,
+				00931E582E165678007B446C /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		00931E5E2E165678007B446C /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				00931E5F2E165678007B446C /* AppDelegate.swift */,
+				00931E612E165678007B446C /* Main.storyboard */,
+				00931E642E165678007B446C /* Info.plist */,
+				00931E652E165678007B446C /* Banner Be Gone.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		00931E6E2E165678007B446C /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				00931E6F2E165678007B446C /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		00931E782E165678007B446C /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				00931E792E165678007B446C /* Info.plist */,
+				00931E7A2E165678007B446C /* Banner Be Gone.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		00931E992E165678007B446C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00931E9A2E165678007B446C /* icons */,
+				00931E9B2E165678007B446C /* manifest.json */,
+				00931E9C2E165678007B446C /* banner-blocker.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00931E4A2E165678007B446C /* Banner Be Gone (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00931E8F2E165678007B446C /* Build configuration list for PBXNativeTarget "Banner Be Gone (iOS)" */;
+			buildPhases = (
+				00931E472E165678007B446C /* Sources */,
+				00931E482E165678007B446C /* Frameworks */,
+				00931E492E165678007B446C /* Resources */,
+				00931E8E2E165678007B446C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00931E6D2E165678007B446C /* PBXTargetDependency */,
+			);
+			name = "Banner Be Gone (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Banner Be Gone (iOS)";
+			productReference = 00931E4B2E165678007B446C /* Banner Be Gone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00931E5C2E165678007B446C /* Banner Be Gone (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00931E962E165678007B446C /* Build configuration list for PBXNativeTarget "Banner Be Gone (macOS)" */;
+			buildPhases = (
+				00931E592E165678007B446C /* Sources */,
+				00931E5A2E165678007B446C /* Frameworks */,
+				00931E5B2E165678007B446C /* Resources */,
+				00931E952E165678007B446C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00931E772E165678007B446C /* PBXTargetDependency */,
+			);
+			name = "Banner Be Gone (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Banner Be Gone (macOS)";
+			productReference = 00931E5D2E165678007B446C /* Banner Be Gone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00931E692E165678007B446C /* Banner Be Gone Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00931E8B2E165678007B446C /* Build configuration list for PBXNativeTarget "Banner Be Gone Extension (iOS)" */;
+			buildPhases = (
+				00931E662E165678007B446C /* Sources */,
+				00931E672E165678007B446C /* Frameworks */,
+				00931E682E165678007B446C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Banner Be Gone Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Banner Be Gone Extension (iOS)";
+			productReference = 00931E6A2E165678007B446C /* Banner Be Gone Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		00931E732E165678007B446C /* Banner Be Gone Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00931E922E165678007B446C /* Build configuration list for PBXNativeTarget "Banner Be Gone Extension (macOS)" */;
+			buildPhases = (
+				00931E702E165678007B446C /* Sources */,
+				00931E712E165678007B446C /* Frameworks */,
+				00931E722E165678007B446C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Banner Be Gone Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Banner Be Gone Extension (macOS)";
+			productReference = 00931E742E165678007B446C /* Banner Be Gone Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00931E382E165677007B446C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					00931E4A2E165678007B446C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					00931E5C2E165678007B446C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					00931E692E165678007B446C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					00931E732E165678007B446C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 00931E3B2E165677007B446C /* Build configuration list for PBXProject "Banner Be Gone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00931E372E165677007B446C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 00931E4C2E165678007B446C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00931E4A2E165678007B446C /* Banner Be Gone (iOS) */,
+				00931E5C2E165678007B446C /* Banner Be Gone (macOS) */,
+				00931E692E165678007B446C /* Banner Be Gone Extension (iOS) */,
+				00931E732E165678007B446C /* Banner Be Gone Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00931E492E165678007B446C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00931E7D2E165678007B446C /* Icon.png in Resources */,
+				00931E542E165678007B446C /* LaunchScreen.storyboard in Resources */,
+				00931E7B2E165678007B446C /* Main.html in Resources */,
+				00931E812E165678007B446C /* Script.js in Resources */,
+				00931E852E165678007B446C /* Assets.xcassets in Resources */,
+				00931E572E165678007B446C /* Main.storyboard in Resources */,
+				00931E7F2E165678007B446C /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E5B2E165678007B446C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00931E7E2E165678007B446C /* Icon.png in Resources */,
+				00931E802E165678007B446C /* Style.css in Resources */,
+				00931E632E165678007B446C /* Main.storyboard in Resources */,
+				00931E822E165678007B446C /* Script.js in Resources */,
+				00931E862E165678007B446C /* Assets.xcassets in Resources */,
+				00931E7C2E165678007B446C /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E682E165678007B446C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00931EA12E165678007B446C /* manifest.json in Resources */,
+				00931EA22E165678007B446C /* banner-blocker.js in Resources */,
+				00931EA02E165678007B446C /* icons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E722E165678007B446C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00931E9E2E165678007B446C /* manifest.json in Resources */,
+				00931E9F2E165678007B446C /* banner-blocker.js in Resources */,
+				00931E9D2E165678007B446C /* icons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00931E472E165678007B446C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00931E832E165678007B446C /* ViewController.swift in Sources */,
+				00931E4F2E165678007B446C /* AppDelegate.swift in Sources */,
+				00931E512E165678007B446C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E592E165678007B446C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00931E842E165678007B446C /* ViewController.swift in Sources */,
+				00931E602E165678007B446C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E662E165678007B446C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00931E872E165678007B446C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00931E702E165678007B446C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00931E882E165678007B446C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00931E6D2E165678007B446C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00931E692E165678007B446C /* Banner Be Gone Extension (iOS) */;
+			targetProxy = 00931E6C2E165678007B446C /* PBXContainerItemProxy */;
+		};
+		00931E772E165678007B446C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00931E732E165678007B446C /* Banner Be Gone Extension (macOS) */;
+			targetProxy = 00931E762E165678007B446C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00931E3E2E165677007B446C /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00931E3F2E165677007B446C /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		00931E522E165678007B446C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00931E532E165678007B446C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00931E552E165678007B446C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00931E562E165678007B446C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00931E612E165678007B446C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00931E622E165678007B446C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00931E892E165678007B446C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00931E8A2E165678007B446C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		00931E8C2E165678007B446C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WG2MXABX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Banner Be Gone Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibrahimuzun.Banner-Be-Gone.Extension";
+				PRODUCT_NAME = "Banner Be Gone Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00931E8D2E165678007B446C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WG2MXABX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Banner Be Gone Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibrahimuzun.Banner-Be-Gone.Extension";
+				PRODUCT_NAME = "Banner Be Gone Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00931E902E165678007B446C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WG2MXABX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Banner Be Gone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibrahimuzun.Banner-Be-Gone";
+				PRODUCT_NAME = "Banner Be Gone";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00931E912E165678007B446C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WG2MXABX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Banner Be Gone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibrahimuzun.Banner-Be-Gone";
+				PRODUCT_NAME = "Banner Be Gone";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00931E932E165678007B446C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Banner Be Gone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WG2MXABX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Banner Be Gone Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibrahimuzun.Banner-Be-Gone.Extension";
+				PRODUCT_NAME = "Banner Be Gone Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00931E942E165678007B446C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Banner Be Gone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WG2MXABX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Banner Be Gone Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibrahimuzun.Banner-Be-Gone.Extension";
+				PRODUCT_NAME = "Banner Be Gone Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00931E972E165678007B446C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Banner Be Gone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WG2MXABX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Banner Be Gone";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibrahimuzun.Banner-Be-Gone";
+				PRODUCT_NAME = "Banner Be Gone";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00931E982E165678007B446C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Banner Be Gone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WG2MXABX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Banner Be Gone";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibrahimuzun.Banner-Be-Gone";
+				PRODUCT_NAME = "Banner Be Gone";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00931E3B2E165677007B446C /* Build configuration list for PBXProject "Banner Be Gone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00931E892E165678007B446C /* Debug */,
+				00931E8A2E165678007B446C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00931E8B2E165678007B446C /* Build configuration list for PBXNativeTarget "Banner Be Gone Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00931E8C2E165678007B446C /* Debug */,
+				00931E8D2E165678007B446C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00931E8F2E165678007B446C /* Build configuration list for PBXNativeTarget "Banner Be Gone (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00931E902E165678007B446C /* Debug */,
+				00931E912E165678007B446C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00931E922E165678007B446C /* Build configuration list for PBXNativeTarget "Banner Be Gone Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00931E932E165678007B446C /* Debug */,
+				00931E942E165678007B446C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00931E962E165678007B446C /* Build configuration list for PBXNativeTarget "Banner Be Gone (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00931E972E165678007B446C /* Debug */,
+				00931E982E165678007B446C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00931E382E165677007B446C /* Project object */;
+}
