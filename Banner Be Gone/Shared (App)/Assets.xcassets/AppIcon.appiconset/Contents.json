@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Icon-iOS-Default-1024x1024@1x.png",
+      "filename" : "image 2 1.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +13,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Icon-iOS-ClearDark-1024x1024@1x.png",
+      "filename" : "image 2 2.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -25,67 +25,67 @@
           "value" : "tinted"
         }
       ],
-      "filename" : "Icon-iOS-ClearLight-1024x1024@1x.png",
+      "filename" : "image 2 3.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
     },
     {
-      "filename" : "mac-icon-16@1x.png",
+      "filename" : "Exported PNG image 6 7.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "mac-icon-16@2x.png",
+      "filename" : "Exported PNG image 6 8.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "mac-icon-32@1x.png",
+      "filename" : "Exported PNG image 6 9.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "mac-icon-32@2x.png",
+      "filename" : "Exported PNG image 6 10.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "mac-icon-128@1x.png",
+      "filename" : "Exported PNG image 6 4.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "mac-icon-128@2x.png",
+      "filename" : "Exported PNG image 6 6.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "mac-icon-256@1x.png",
+      "filename" : "Exported PNG image 6 5.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "mac-icon-256@2x.png",
+      "filename" : "Exported PNG image 6 3.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "mac-icon-512@1x.png",
+      "filename" : "Exported PNG image 6 2.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "mac-icon-512@2x.png",
+      "filename" : "Icon-macOS-Default-1024x1024@1x 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

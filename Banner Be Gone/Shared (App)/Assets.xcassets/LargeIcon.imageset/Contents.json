@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Icon-macOS-Default-1024x1024@1x.png",
+      "filename" : "image 2 1.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Icon-macOS-Default-1024x1024@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
