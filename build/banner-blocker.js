@@ -6,79 +6,42 @@
  * - Catches banners added later via MutationObserver
  */
 
-// Most common class and id patterns
-// New patterns can be added as needed
-const SELECTORS = [
-  // Safari native smart banners
-  ".smartbanner",
-  ".smart-app-banner",
-  ".smartAppBanner",
-  'div[id^="smartbanner"]',
-  "#smartbanner",
+// Meta tags that trigger Safari "Open in App" banners
+const META_SELECTORS = [
+  // Apple Smart App Banner
+  'meta[name="apple-itunes-app"]',
 
-  // Common smart banner libraries
-  ".smartbanner-js",
-  ".adjust-smart-banner",
+  // App Links (Universal Links)
+  'meta[property="al:ios:app_name"]',
+  'meta[property="al:ios:app_store_id"]',
+  'meta[property="al:ios:url"]',
+  'meta[property="al:iphone:app_name"]',
+  'meta[property="al:iphone:app_store_id"]',
+  'meta[property="al:iphone:url"]',
+  'meta[property="al:ipad:app_name"]',
+  'meta[property="al:ipad:app_store_id"]',
+  'meta[property="al:ipad:url"]',
 
-  // Basic native app install prompts
-  ".native-app-banner",
-  'div[class*="SmartAppBanner"]',
-  '[data-testid="app-banner"]',
-  'div[role="banner"]',
-  'header[role="banner"]',
+  // Twitter Cards
+  'meta[name="twitter:app:name:iphone"]',
+  'meta[name="twitter:app:id:iphone"]',
+  'meta[name="twitter:app:url:iphone"]',
+  'meta[name="twitter:app:name:ipad"]',
+  'meta[name="twitter:app:id:ipad"]',
+  'meta[name="twitter:app:url:ipad"]',
 ];
 
-// Meta tag that triggers Safari Smart App Banner
-const META_SELECTOR = 'meta[name="apple-itunes-app"]';
-
 /**
- * Removes banners from the DOM
+ * Removes meta tags that cause "Open in App" banners
  * @param {Document|Element} root - Root element to search within
  */
-function removeBanners(root = document) {
-  // Remove visible banner elements
-  SELECTORS.forEach((selector) => {
-    root.querySelectorAll(selector).forEach((element) => {
-      console.debug("[Banner Be Gone] Removing banner:", element);
-      element.remove();
+function removeMetaTags(root = document) {
+  META_SELECTORS.forEach((selector) => {
+    root.querySelectorAll(selector).forEach((meta) => {
+      console.debug("[Banner Be Gone] Removing meta tag:", meta);
+      meta.remove();
     });
   });
-
-  // Remove Safari meta tags
-  root.querySelectorAll(META_SELECTOR).forEach((meta) => {
-    console.debug("[Banner Be Gone] Removing meta tag:", meta);
-    meta.remove();
-  });
-}
-
-/**
- * Adds CSS to the page head
- * Additional hiding rules for comprehensive blocking
- */
-function addCustomStyles() {
-  const style = document.createElement("style");
-  style.textContent = `
-    /* Banner Be Gone - Native app banners only */
-    [class*="smartbanner" i],
-    [class*="smart-app-banner" i],
-    [id*="smartbanner" i] {
-      display: none !important;
-      visibility: hidden !important;
-      height: 0 !important;
-      overflow: hidden !important;
-      position: absolute !important;
-      left: -9999px !important;
-    }
-    
-    /* Common smart banner patterns */
-    .smartbanner-js,
-    .adjust-smart-banner,
-    .native-app-banner {
-      display: none !important;
-    }
-  `;
-  document.head.appendChild(style);
-  console.debug("[Banner Be Gone] Custom styles added");
 }
 
 /**
@@ -87,11 +50,8 @@ function addCustomStyles() {
 function initialize() {
   console.log("[Banner Be Gone] Extension started");
 
-  // Initial cleanup
-  removeBanners();
-
-  // Add CSS rules
-  addCustomStyles();
+  // Remove meta tags
+  removeMetaTags();
 
   // Start MutationObserver for dynamic content
   startObserver();
@@ -105,7 +65,7 @@ function startObserver() {
     mutations.forEach((mutation) => {
       mutation.addedNodes.forEach((node) => {
         if (node.nodeType === Node.ELEMENT_NODE) {
-          removeBanners(node);
+          removeMetaTags(node);
         }
       });
     });
